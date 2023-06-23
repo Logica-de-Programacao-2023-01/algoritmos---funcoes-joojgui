@@ -13,8 +13,8 @@ func Primos(num int) (bool, error) {
 
 	}
 
-	if num/num == 0 {
+	if num%num == 1 {
 
 	}
-
+	return
 }
